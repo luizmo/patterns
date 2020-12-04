@@ -17,8 +17,11 @@ Notificar o cliente sobre suas faturas do dia
 
 - *[Singleton](https://refactoring.guru/pt-br/design-patterns/singleton)*
 - *[Facade](https://refactoring.guru/pt-br/design-patterns/facade)*
+- *[Adapter](https://refactoring.guru/pt-br/design-patterns/adapter)*
 
 ## Aplicação dos Patterns no Trabalho
 *Singleton:* Criar um único ponto de acesso ao objeto de registro e notificação ao cliente, garantindo apenas uma porta de entrada para a classe que contém todos os metódos.
 
 *Facade:* Criar uma fachada (interface) para o sistema onde todos os metódos estão implementados e não há nenhuma regra de negócio, assim essa facade faz-se independente e isolada além de garantir que futuras mudanças tenham apenas um ponto de alteração.
+
+*Adapter:* Criar um objeto "adaptando" uma biblioteca para um objeto com única responsabilidade.
